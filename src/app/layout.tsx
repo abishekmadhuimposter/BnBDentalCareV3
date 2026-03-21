@@ -15,6 +15,9 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "B&B Dental Care | Best Dental Clinic",
   description: "Professional dental treatments including implants, braces and cosmetic dentistry.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
