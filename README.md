@@ -34,3 +34,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Appointment Email Setup
+
+To send appointment submissions to your email, create a `.env.local` file in the project root and add:
+
+```bash
+SMTP_HOST=smtp.example.com
+SMTP_PORT=587
+SMTP_USER=your-smtp-username
+SMTP_PASS=your-smtp-password
+APPOINTMENT_TO_EMAIL=your-email@example.com
+```
+
+Notes:
+- `APPOINTMENT_TO_EMAIL` is where appointment emails are delivered.
+- Use SMTP credentials from your provider (Gmail, Zoho, Outlook, etc.).
+- If your provider requires SSL on connect, set `SMTP_PORT=465`.
+- Restart the dev server after updating environment variables.
