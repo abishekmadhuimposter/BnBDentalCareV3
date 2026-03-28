@@ -15,7 +15,7 @@ const images = [
 export default function Gallery() {
 
   return (
-    <section className="bg-blue-50 py-20">
+    <section id="gallery" className="bg-blue-50 py-20">
 
       <h2 className="text-3xl font-bold text-center mb-10">
         Smile Gallery

@@ -13,62 +13,62 @@ const services: Service[] = [
   {
     name: "Scaling and Root Planing",
     image:
-      "https://images.pexels.com/photos/3845804/pexels-photo-3845804.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://cdn.prod.website-files.com/66eae30169bcd82affc17f29/6740c278b77f130a63d608b1_scaling.jpg",
   },
   {
     name: "Gum Depigmentation",
     image:
-      "https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfMwfap9el1sh7Lgc2AQM_gplAfJAm2xdiEA&s",
   },
   {
     name: "Denture",
     image:
-      "https://images.pexels.com/photos/6627664/pexels-photo-6627664.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://www.bridgedentalcosmetic.co.uk/blog/wp-content/uploads/2025/11/What-is-a-Partial-Denture.jpg",
   },
   {
     name: "Surgical Corrections",
     image:
-      "https://images.pexels.com/photos/7580262/pexels-photo-7580262.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://www.rajkotdentist.com/wp-content/uploads/2023/07/20230726161245_fpdl.in_young-woman-with-red-bleeding-gums-health-gums-before-after-treatment_407348-1533_medium.jpg",
   },
   {
     name: "Teeth Whitening",
     image:
-      "https://images.pexels.com/photos/305568/pexels-photo-305568.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVGVLP7t4Emyoj5ELeNdLdezp3Jc9YF7NuoQ&s",
   },
   {
     name: "Root Canal",
     image:
-      "https://images.pexels.com/photos/6528908/pexels-photo-6528908.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://www.sakethospital.in/wp-content/uploads/2025/05/Tooth-With-Root-Canal-Hurt-With-Pressure-TruSmile-Dental.png",
   },
   {
     name: "Veneers",
     image:
-      "https://images.pexels.com/photos/8376293/pexels-photo-8376293.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://guptadentalclinic.com/wp-content/uploads/2026/03/Dental-Veneers.jpg",
   },
   {
     name: "Digital Smile Designing",
     image:
-      "https://images.pexels.com/photos/6812577/pexels-photo-6812577.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLTBGN5F16M6uxGG_0ni0TmuXP-0Rw2EvyA&s",
   },
   {
     name: "Dental Implants",
     image:
-      "https://images.pexels.com/photos/3779707/pexels-photo-3779707.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5QbaKzAZAbjml8UwppqQv1YreOVPQLgUFQ&s",
   },
   {
     name: "Dental Aligners and Braces",
     image:
-      "https://images.pexels.com/photos/6627535/pexels-photo-6627535.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://cdn.prod.website-files.com/64200f66a2bd1e03e145e5ac/64773050b9047f0ddf5f2db2_Blog%2012-06.webp",
   },
   {
     name: "Electrocauterization",
     image:
-      "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://premier-clinic.com/wp-content/uploads/2020/08/Electrocautery-01.jpg",
   },
   {
     name: "Gluta IV",
     image:
-      "https://images.pexels.com/photos/5752267/pexels-photo-5752267.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://lanalifecare.com/wp-content/uploads/2025/04/Glutathione-IV-Drip-Before-and-After-scaled.webp",
   },
 ]
 
@@ -163,7 +163,7 @@ export default function Services() {
             >
               {pages.map((group, groupIndex) => (
                 <div key={groupIndex} className="min-w-full">
-                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  <div className="grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
                     {group.map((service) => (
                       <article
                         key={service.name}
@@ -226,12 +226,12 @@ export default function Services() {
         </div>
 
         <div className="mt-8 text-center">
-          <button
-            type="button"
-            className="rounded-lg bg-blue-600 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700"
+          <a
+            href="#appointment"
+            className="hidden rounded-lg bg-blue-600 px-2.5 text-sm font-medium text-white transition hover:bg-blue-700 md:inline-flex md:h-8 md:items-center md:justify-center"
           >
-            Book Appointment →
-          </button>
+            Book Appointment
+          </a>
         </div>
       </div>
     </section>

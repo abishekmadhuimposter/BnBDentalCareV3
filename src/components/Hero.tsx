@@ -53,9 +53,12 @@ export default function Hero() {
             and cosmetic dentistry.
           </p>
 
-          <Button className="bg-blue-600 hover:bg-blue-700">
+          <a
+            href="#appointment"
+            className="hidden rounded-lg bg-blue-600 px-2.5 text-sm font-medium text-white transition hover:bg-blue-700 md:inline-flex md:h-8 md:items-center md:justify-center"
+          >
             Book Appointment
-          </Button>
+          </a>
         </div>
       </div>
     </section>

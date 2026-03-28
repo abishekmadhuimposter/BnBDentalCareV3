@@ -27,9 +27,41 @@ export default function Appointment() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [statusMessage, setStatusMessage] = useState("")
   const [submitError, setSubmitError] = useState(false)
+  const whatsappNumber = "919846646488"
 
   const updateForm = <K extends keyof AppointmentForm>(field: K, value: AppointmentForm[K]) => {
     setForm((current) => ({ ...current, [field]: value }))
+  }
+
+  const validateRequiredFields = () => {
+    if (!form.fullName.trim() || !form.phoneNumber.trim() || !form.service) {
+      setSubmitError(true)
+      setStatusMessage("Please fill Full Name, Phone Number, and Service Required.")
+      return false
+    }
+
+    return true
+  }
+
+  const handleWhatsAppBooking = () => {
+    setStatusMessage("")
+    setSubmitError(false)
+
+    if (!validateRequiredFields()) {
+      return
+    }
+
+    const messageLines = [
+      "Hi, I would like to book a dental appointment.",
+      form.fullName.trim() ? `Name: ${form.fullName.trim()}` : null,
+      form.phoneNumber.trim() ? `Phone: ${form.phoneNumber.trim()}` : null,
+      form.service.trim() ? `Service: ${form.service.trim()}` : null,
+      form.preferredDate.trim() ? `Preferred Date: ${form.preferredDate.trim()}` : null,
+      form.message.trim() ? `Message: ${form.message.trim()}` : null,
+    ].filter(Boolean)
+
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(messageLines.join("\n"))}`
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer")
   }
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -37,9 +69,7 @@ export default function Appointment() {
     setStatusMessage("")
     setSubmitError(false)
 
-    if (!form.fullName.trim() || !form.phoneNumber.trim() || !form.service) {
-      setSubmitError(true)
-      setStatusMessage("Please fill Full Name, Phone Number, and Service Required.")
+    if (!validateRequiredFields()) {
       return
     }
 
@@ -94,7 +124,7 @@ export default function Appointment() {
               </div>
               <div>
                 <p className="text-sm text-blue-200">Call Us</p>
-                <p className="text-lg font-semibold">+91 98765 43210</p>
+                <p className="text-lg font-semibold">+91 9846646488</p>
               </div>
             </div>
 
@@ -114,8 +144,8 @@ export default function Appointment() {
               </div>
               <div>
                 <p className="text-sm text-blue-200">Working Hours</p>
-                <p className="text-lg font-semibold">Mon - Sat: 9 AM - 8 PM</p>
-                <p className="text-sm text-blue-200">Sunday: 10 AM - 2 PM</p>
+                <p className="text-lg font-semibold">Mon - Sat: 9 AM - 7 PM</p>
+                <p className="text-sm text-blue-200">Sunday: Closed</p>
               </div>
             </div>
           </div>
@@ -199,6 +229,7 @@ export default function Appointment() {
               type="button"
               variant="outline"
               className="w-full border-green-500 text-green-600 hover:bg-green-50 hover:text-green-700"
+              onClick={handleWhatsAppBooking}
             >
               <MessageCircle className="mr-2 h-4 w-4" />
               Book via WhatsApp

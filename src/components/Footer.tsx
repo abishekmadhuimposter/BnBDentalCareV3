@@ -49,21 +49,14 @@ export default function Footer() {
 
             <div className="mt-5 flex items-center gap-3">
               <a
-                href="#"
-                aria-label="Facebook"
-                className="rounded-lg bg-slate-800 p-2.5 text-slate-400 transition hover:bg-slate-700 hover:text-white"
-              >
-                <Facebook className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/bandbdentalcare?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 aria-label="Instagram"
                 className="rounded-lg bg-slate-800 p-2.5 text-slate-400 transition hover:bg-slate-700 hover:text-white"
               >
                 <Instagram className="h-4 w-4" />
               </a>
               <a
-                href="#"
+                href="https://wa.me/919846646488?text=Hi%20I%20want%20to%20connect"
                 aria-label="WhatsApp"
                 className="rounded-lg bg-slate-800 p-2.5 text-slate-400 transition hover:bg-slate-700 hover:text-white"
               >
@@ -87,12 +80,12 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-semibold text-white">Quick Links</h4>
             <ul className="mt-5 space-y-3 text-sm">
-              <li><a href="#" className="hover:text-white">Home</a></li>
-              <li><a href="#" className="hover:text-white">About Us</a></li>
-              <li><a href="#" className="hover:text-white">Services</a></li>
-              <li><a href="#" className="hover:text-white">Gallery</a></li>
-              <li><a href="#" className="hover:text-white">Blog</a></li>
-              <li><a href="#" className="hover:text-white">Contact</a></li>
+              <li><a href="#home" className="hover:text-white">Home</a></li>
+              {/* <li><a href="#" className="hover:text-white">About Us</a></li> */}
+              <li><a href="#services" className="hover:text-white">Services</a></li>
+              <li><a href="#ourdoctors" className="hover:text-white">Our Doctors</a></li>
+              {/* <li><a href="#" className="hover:text-white">Blog</a></li> */}
+              <li><a href="#appointment" className="hover:text-white">Contact</a></li>
             </ul>
           </div>
 
@@ -102,23 +95,23 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
                 <span className="leading-7">
-                  1st Floor, Sree Complex,
-                  <br />
-                  MG Road, Ernakulam,
-                  <br />
-                  Kochi - 682 016, Kerala
+                  Near, Padavarad Junction, TKV Nagar,
+                    <br />
+                    Paruvankulamgara, Ollur,
+                    <br />
+                    Thrissur, Kerala - 680306
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-blue-500" />
-                <a href="tel:+919876543210" className="hover:text-white">
-                  +91 98765 43210
+                <a href="tel:+919846646488" className="hover:text-white">
+                  +91 98466 46488
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-blue-500" />
-                <a href="mailto:info@bandbdentalcare.com" className="hover:text-white">
-                  info@bandbdentalcare.com
+                <a href="mailto:bnbdentalcare@gmail.com" className="hover:text-white">
+                  bnbdentalcare@gmail.com
                 </a>
               </li>
             </ul>

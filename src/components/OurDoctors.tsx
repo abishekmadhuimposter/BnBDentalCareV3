@@ -12,6 +12,7 @@ import drMalavika from "@/images/malavikamadhu.png"
 import drMeljo from "@/images/dr.melijojoseph.jpeg"
 import drRobinson from "@/images/dr.robinson.jpeg"
 import drRohith from "@/images/dr.rohitbasi.png"
+import drrasalriyas from "@/images/dr.rasalriyas.jpeg"
 
 type Doctor = {
   name: string
@@ -60,6 +61,11 @@ const doctors: Doctor[] = [
     role: "Prosthodontist",
     image: drRobinson,
   },
+  {
+    name: "Dr. Rasal Riyas MDS",
+    role: "implantologist and Laser specialist",
+    image: drrasalriyas,
+  }
 ]
 
 export default function OurDoctors() {
