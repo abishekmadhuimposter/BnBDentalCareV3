@@ -6,11 +6,11 @@ import { Menu, X } from "lucide-react"
 import logo from "@/images/logo.png"
 
 const navigationItems = [
-  { href: "#home", label: "Home" },
-  { href: "#services", label: "Services" },
-  { href: "#our-doctors", label: "Our Doctors" },
-  { href: "#location", label: "Location" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#home", label: "Home" },
+  { href: "/#services", label: "Services" },
+  { href: "/#our-doctors", label: "Our Doctors" },
+  { href: "/#location", label: "Location" },
+  { href: "/#contact", label: "Contact" },
 ]
 
 export default function Navbar() {
@@ -58,7 +58,7 @@ export default function Navbar() {
           </nav>
 
           <a
-            href="#appointment"
+            href="/#appointment"
             className="hidden rounded-lg bg-blue-600 px-2.5 text-sm font-medium text-white transition hover:bg-blue-700 md:inline-flex md:h-8 md:items-center md:justify-center"
           >
             Book Appointment
@@ -121,7 +121,7 @@ export default function Navbar() {
             ))}
 
             <a
-              href="#appointment"
+              href="/#appointment"
               className="mt-3 inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
               onClick={closeMobileMenu}
             >

@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function MobileBar() {
 
   return (
@@ -17,12 +19,12 @@ export default function MobileBar() {
         WhatsApp
       </a>
 
-      <a
-        href="#appointment"
+      <Link
+        href="/#appointment"
         className="text-blue-600 font-semibold"
       >
         Book
-      </a>
+      </Link>
 
     </div>
   )

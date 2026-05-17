@@ -1,76 +1,12 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import { servicesData } from "@/lib/services-data"
 
-type Service = {
-  name: string
-  image: string
-}
-
-const services: Service[] = [
-  {
-    name: "Scaling and Root Planing",
-    image:
-      "https://cdn.prod.website-files.com/66eae30169bcd82affc17f29/6740c278b77f130a63d608b1_scaling.jpg",
-  },
-  {
-    name: "Gum Depigmentation",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfMwfap9el1sh7Lgc2AQM_gplAfJAm2xdiEA&s",
-  },
-  {
-    name: "Denture",
-    image:
-      "https://www.bridgedentalcosmetic.co.uk/blog/wp-content/uploads/2025/11/What-is-a-Partial-Denture.jpg",
-  },
-  {
-    name: "Surgical Corrections",
-    image:
-      "https://www.rajkotdentist.com/wp-content/uploads/2023/07/20230726161245_fpdl.in_young-woman-with-red-bleeding-gums-health-gums-before-after-treatment_407348-1533_medium.jpg",
-  },
-  {
-    name: "Teeth Whitening",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVGVLP7t4Emyoj5ELeNdLdezp3Jc9YF7NuoQ&s",
-  },
-  {
-    name: "Root Canal",
-    image:
-      "https://www.sakethospital.in/wp-content/uploads/2025/05/Tooth-With-Root-Canal-Hurt-With-Pressure-TruSmile-Dental.png",
-  },
-  {
-    name: "Veneers",
-    image:
-      "https://guptadentalclinic.com/wp-content/uploads/2026/03/Dental-Veneers.jpg",
-  },
-  {
-    name: "Digital Smile Designing",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLTBGN5F16M6uxGG_0ni0TmuXP-0Rw2EvyA&s",
-  },
-  {
-    name: "Dental Implants",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5QbaKzAZAbjml8UwppqQv1YreOVPQLgUFQ&s",
-  },
-  {
-    name: "Dental Aligners and Braces",
-    image:
-      "https://cdn.prod.website-files.com/64200f66a2bd1e03e145e5ac/64773050b9047f0ddf5f2db2_Blog%2012-06.webp",
-  },
-  {
-    name: "Electrocauterization",
-    image:
-      "https://premier-clinic.com/wp-content/uploads/2020/08/Electrocautery-01.jpg",
-  },
-  {
-    name: "Gluta IV",
-    image:
-      "https://lanalifecare.com/wp-content/uploads/2025/04/Glutathione-IV-Drip-Before-and-After-scaled.webp",
-  },
-]
+const services = servicesData
 
 export default function Services() {
   const [page, setPage] = useState(0)
@@ -165,9 +101,10 @@ export default function Services() {
                 <div key={groupIndex} className="min-w-full">
                   <div className="grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
                     {group.map((service) => (
-                      <article
+                      <Link
                         key={service.name}
-                        className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+                        href={`/services/${service.slug}`}
+                        className="group block overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
                       >
                         <div className="relative h-40 w-full overflow-hidden">
                           <Image
@@ -184,7 +121,7 @@ export default function Services() {
                         <div className="p-3">
                           <h3 className="text-sm font-semibold">{service.name}</h3>
                         </div>
-                      </article>
+                      </Link>
                     ))}
                   </div>
                 </div>

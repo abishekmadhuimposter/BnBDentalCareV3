@@ -1,6 +1,6 @@
 import Image from "next/image"
+import Link from "next/link"
 import {
-  Facebook,
   Instagram,
   Mail,
   MapPin,
@@ -68,24 +68,24 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-semibold text-white">Our Services</h4>
             <ul className="mt-5 space-y-3 text-sm">
-              <li><a href="#" className="hover:text-white">Dental Implants</a></li>
-              <li><a href="#" className="hover:text-white">Root Canal</a></li>
-              <li><a href="#" className="hover:text-white">Teeth Whitening</a></li>
-              <li><a href="#" className="hover:text-white">Braces &amp; Aligners</a></li>
-              <li><a href="#" className="hover:text-white">Tooth Extraction</a></li>
-              <li><a href="#" className="hover:text-white">Smile Makeover</a></li>
+              <li><Link href="/services/dental-implants" className="hover:text-white">Dental Implants</Link></li>
+              <li><Link href="/services/root-canal" className="hover:text-white">Root Canal</Link></li>
+              <li><Link href="/services/teeth-whitening" className="hover:text-white">Teeth Whitening</Link></li>
+              <li><Link href="/services/dental-aligners-and-braces" className="hover:text-white">Braces &amp; Aligners</Link></li>
+              <li><Link href="/services/veneers" className="hover:text-white">Veneers</Link></li>
+              <li><Link href="/services/digital-smile-designing" className="hover:text-white">Smile Makeover</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-xl font-semibold text-white">Quick Links</h4>
             <ul className="mt-5 space-y-3 text-sm">
-              <li><a href="#home" className="hover:text-white">Home</a></li>
+              <li><Link href="/#home" className="hover:text-white">Home</Link></li>
               {/* <li><a href="#" className="hover:text-white">About Us</a></li> */}
-              <li><a href="#services" className="hover:text-white">Services</a></li>
-              <li><a href="#ourdoctors" className="hover:text-white">Our Doctors</a></li>
+              <li><Link href="/#services" className="hover:text-white">Services</Link></li>
+              <li><Link href="/#our-doctors" className="hover:text-white">Our Doctors</Link></li>
               {/* <li><a href="#" className="hover:text-white">Blog</a></li> */}
-              <li><a href="#appointment" className="hover:text-white">Contact</a></li>
+              <li><Link href="/#appointment" className="hover:text-white">Contact</Link></li>
             </ul>
           </div>
 
