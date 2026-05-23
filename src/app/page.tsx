@@ -4,6 +4,7 @@ import FeatureCards from "@/components/FeatureCards"
 import Services from "@/components/Services"
 import OurDoctors from "@/components/OurDoctors"
 import Location from "@/components/Location"
+import ClinicGallery from "@/components/ClinicGallery"
 import Gallery from "@/components/Gallery"
 import Testimonials from "@/components/Testimonials"
 import Appointment from "@/components/Appointments"
@@ -19,6 +20,7 @@ export default function Home() {
       <Services />
       <OurDoctors />
       <Location />
+      <ClinicGallery />
       {/* <Gallery />
       <Testimonials /> */}
       <Appointment />

@@ -10,6 +10,7 @@ const navigationItems = [
   { href: "/#services", label: "Services" },
   { href: "/#our-doctors", label: "Our Doctors" },
   { href: "/#location", label: "Location" },
+  { href: "/#gallery", label: "Gallery" },
   { href: "/#contact", label: "Contact" },
 ]
 

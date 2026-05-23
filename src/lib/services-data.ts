@@ -1237,4 +1237,103 @@ export const servicesData: ServiceData[] = [
       },
     ],
   },
+  {
+    slug: "tooth-grills",
+    name: "Tooth Grills",
+    image: "https://media.istockphoto.com/id/2166148636/photo/young-man-shows-off-his-grillz-on-fisheye-lens.webp?a=1&b=1&s=612x612&w=0&k=20&c=CKpulcI4tNdlKlxOEnQmGyBSB2tzgobESVe02iioptY=",
+    tagline: "Custom Tooth Grills Crafted for Your Unique Style",
+    metaTitle: "Best Tooth Grills in Thrissur | Custom Dental Grills | B&B Dental Care",
+    metaDescription:
+      "Get the best custom tooth grills in Thrissur at B&B Dental Care. Precision-crafted dental grills built to your exact needs with vast designs available. Premium tooth grills in Thrissur, Kerala.",
+    overview:
+      "Tooth grills — also known as dental grills or grillz — are decorative dental accessories crafted from precious metals such as gold, silver and platinum, often studded with gemstones. At B&B Dental Care in Thrissur, we offer the best custom tooth grills built precisely to each customer's individual needs. Whether you want a subtle single-tooth grill or a full set of statement grills, our expert team in Thrissur delivers premium quality with a vast range of designs to suit every style and personality. Each grill is custom-fabricated from an exact mould of your teeth for a perfect, comfortable fit. As the most trusted provider of tooth grills in Thrissur, B&B Dental Care combines artistry with dental precision for results that turn heads.",
+    benefitsTitle: "Why Choose B&B Dental Care for Tooth Grills in Thrissur?",
+    benefits: [
+      {
+        title: "Best Tooth Grills in Thrissur",
+        description:
+          "B&B Dental Care is Thrissur's premier destination for custom dental grills, trusted by customers for quality craftsmanship and precision fit.",
+      },
+      {
+        title: "100% Custom Built",
+        description:
+          "Every grill is made from an exact dental impression of your teeth — custom built to your specifications for a secure, comfortable fit.",
+      },
+      {
+        title: "Vast Design Selection",
+        description:
+          "Choose from an extensive catalogue of designs including gold grills, diamond-cut patterns, gemstone settings and personalised styles.",
+      },
+      {
+        title: "Premium Materials",
+        description:
+          "We use high-quality metals and materials to ensure your grill is durable, safe and retains its shine over time.",
+      },
+      {
+        title: "Perfect Fit Every Time",
+        description:
+          "Precision dental moulds ensure your grill fits snugly without slipping, making it comfortable for extended wear.",
+      },
+      {
+        title: "Expert Dental Supervision",
+        description:
+          "Our dental team ensures your grill is crafted and fitted with full attention to your oral health and safety.",
+      },
+    ],
+    processTitle: "How We Craft Your Custom Tooth Grill",
+    process: [
+      {
+        stepNumber: "01",
+        title: "Consultation & Design Selection",
+        description:
+          "Visit our clinic in Thrissur to discuss your preferred style. Browse our vast design catalogue and choose the metal, finish and design that suits you.",
+      },
+      {
+        stepNumber: "02",
+        title: "Dental Impressions",
+        description:
+          "Precise moulds of your teeth are taken to ensure a perfectly snug and comfortable fit for your custom grill.",
+      },
+      {
+        stepNumber: "03",
+        title: "Custom Fabrication",
+        description:
+          "Your grill is handcrafted by skilled artisans using your chosen materials and design, built exactly to your dental impressions.",
+      },
+      {
+        stepNumber: "04",
+        title: "Quality Check",
+        description:
+          "Each grill undergoes a thorough quality inspection for finish, fit and material integrity before delivery.",
+      },
+      {
+        stepNumber: "05",
+        title: "Fitting & Care Instructions",
+        description:
+          "We fit the completed grill and provide full care and maintenance instructions to keep your grill looking its best.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Are tooth grills safe to wear?",
+        answer:
+          "When properly fitted and worn responsibly, tooth grills are safe. Our team ensures every grill is crafted from safe materials and provides guidance on hygienic wear and cleaning.",
+      },
+      {
+        question: "Can I get a custom tooth grill in Thrissur?",
+        answer:
+          "Yes. B&B Dental Care in Thrissur offers fully custom-built tooth grills tailored to your individual requirements. We have a vast range of designs available.",
+      },
+      {
+        question: "How long does it take to make a custom grill?",
+        answer:
+          "Most custom grills are ready within 5–10 working days after we take your dental impressions, depending on the complexity of the design.",
+      },
+      {
+        question: "What designs are available for tooth grills?",
+        answer:
+          "We offer a vast selection including plain gold or silver grills, diamond-cut finishes, gemstone-encrusted designs and fully bespoke personalised patterns. Visit our clinic in Thrissur to view the full catalogue.",
+      },
+    ],
+  },
 ]

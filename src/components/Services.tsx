@@ -107,15 +107,23 @@ export default function Services() {
                         className="group block overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
                       >
                         <div className="relative h-40 w-full overflow-hidden">
-                          <Image
-                            src={service.image}
-                            alt={service.name}
-                            fill
-                            sizes="300px"
-                            unoptimized
-                            loader={({ src }) => src}
-                            className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
-                          />
+                          {service.image ? (
+                            <Image
+                              src={service.image}
+                              alt={service.name}
+                              fill
+                              sizes="300px"
+                              unoptimized
+                              loader={({ src }) => src}
+                              className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                            />
+                          ) : (
+                            <div className="flex h-full w-full items-center justify-center bg-blue-50">
+                              <span className="text-sm font-medium text-blue-400">
+                                {service.name}
+                              </span>
+                            </div>
+                          )}
                         </div>
 
                         <div className="p-3">

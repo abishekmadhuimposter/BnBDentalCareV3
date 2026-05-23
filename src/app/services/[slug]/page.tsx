@@ -14,6 +14,16 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { servicesData } from "@/lib/services-data"
+import clinic2 from "@/images/clinic-2.jpg"
+import clinic5 from "@/images/clinic-5.jpg"
+import clinic7 from "@/images/clinic-7.jpg"
+
+const bgImages = [clinic2, clinic5, clinic7]
+
+function pickImage(slug: string) {
+  const sum = slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0)
+  return bgImages[sum % bgImages.length]
+}
 
 export async function generateStaticParams() {
   return servicesData.map((service) => ({ slug: service.slug }))
@@ -48,17 +58,19 @@ export default async function ServicePage({
 
       <main>
         {/* ── Hero ─────────────────────────────────────────── */}
-        <section className="relative overflow-hidden bg-linear-to-br from-blue-700 via-blue-600 to-blue-500 py-20 text-white md:py-28">
-          {/* subtle pattern overlay */}
-          <div
+        <section className="relative overflow-hidden py-20 text-white md:py-28">
+          {/* Background clinic image */}
+          <Image
+            src={pickImage(slug)}
+            alt=""
+            fill
+            sizes="100vw"
             aria-hidden="true"
-            className="absolute inset-0 opacity-[0.07]"
-            style={{
-              backgroundImage:
-                "radial-gradient(circle, white 1px, transparent 1px)",
-              backgroundSize: "28px 28px",
-            }}
+            className="object-cover object-center"
+            priority
           />
+          {/* Dark overlay */}
+          <div aria-hidden="true" className="absolute inset-0 bg-black/45" />
 
           <div className="relative z-10 mx-auto max-w-7xl px-4">
             {/* Breadcrumb */}
@@ -130,16 +142,21 @@ export default async function ServicePage({
                 </div>
               </div>
 
-              {/* Placeholder image – replace src with actual image later */}
               <div className="relative h-72 overflow-hidden rounded-2xl bg-slate-100 shadow-sm lg:h-96">
-                <Image
-                  src={`https://placehold.co/800x500/dbeafe/1d4ed8?text=${encodeURIComponent(service.name)}`}
-                  alt={`${service.name} treatment at B&B Dental Care Thrissur`}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  unoptimized
-                  className="object-cover"
-                />
+                {service.image ? (
+                  <Image
+                    src={service.image}
+                    alt={`${service.name} treatment at B&B Dental Care Thrissur`}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    unoptimized
+                    className="object-cover"
+                  />
+                ) : (
+                  <div className="flex h-full w-full items-center justify-center bg-blue-50">
+                    <span className="text-sm font-medium text-blue-400">{service.name}</span>
+                  </div>
+                )}
               </div>
             </div>
           </div>

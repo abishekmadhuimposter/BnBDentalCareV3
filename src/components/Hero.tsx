@@ -4,12 +4,12 @@ import { useEffect, useState } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
-const heroImages = [
-  "https://images.pexels.com/photos/3881313/pexels-photo-3881313.jpeg",
-  "https://images.pexels.com/photos/4269684/pexels-photo-4269684.jpeg",
-  "https://images.unsplash.com/photo-1629909613654-28e377c37b09",
-  "https://images.pexels.com/photos/305565/pexels-photo-305565.jpeg",
-]
+import clinic2 from "@/images/clinic-2.jpg"
+import clinic3 from "@/images/clinic-3.jpg"
+import clinic5 from "@/images/clinic-5.jpg"
+import clinic7 from "@/images/clinic-7.jpg"
+
+const heroImages = [clinic2, clinic3, clinic5, clinic7]
 
 export default function Hero() {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -27,13 +27,13 @@ export default function Hero() {
       <div className="absolute inset-0">
         {heroImages.map((image, index) => (
           <Image
-            key={image}
+            key={index}
             src={image}
             alt=""
             fill
             sizes="100vw"
             aria-hidden="true"
-            className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ${
+            className={`object-cover object-center transition-opacity duration-1000 ${
               index === activeIndex ? "opacity-100" : "opacity-0"
             }`}
           />
