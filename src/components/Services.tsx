@@ -83,11 +83,10 @@ export default function Services() {
             Our Services
           </span>
           <h2 className="mx-auto mt-4 max-w-4xl text-2xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Comprehensive Dental Care
+            Best Dental & Cosmetic Care in Thrissur
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600 md:text-base">
-            From routine check-ups to complex procedures, we offer a full range of
-            dental services to keep your smile healthy and beautiful.
+            From routine check-ups to cosmetic procedures, Thrissur's most affordable dental clinic offers a full range of services to keep your smile healthy and beautiful.
           </p>
         </div>
 
