@@ -76,6 +76,19 @@ export default function Navbar() {
             {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
+
+        <link rel="canonical" href="https://bandbdentalcare.com"/>
+        <meta name="google-site-verification" content="ArkxZoQTDnq6ShTQhg6nZsD-kkcY_B143cywZXVsySk" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NNRG5C80Z"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-4NNRG5C80Z');
+        </script>        
+
       </header>
 
       <div

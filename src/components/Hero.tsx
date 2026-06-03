@@ -45,12 +45,11 @@ export default function Hero() {
       <div className="relative z-10 mx-auto flex min-h-[70vh] max-w-7xl items-center px-6 py-20">
         <div className="max-w-xl">
           <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">
-            Your Smile, Our Priority
+            Best Dental & Cosmetic Clinic in Thrissur – Your Smile, Our Priority
           </h1>
 
           <p className="mb-6 text-white/90">
-            Modern dental clinic offering implants, braces,
-            and cosmetic dentistry.
+            Thrissur's best and most affordable dental & cosmetic clinic offering implants, braces, and smile makeovers
           </p>
 
           <a

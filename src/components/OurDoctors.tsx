@@ -106,7 +106,7 @@ export default function OurDoctors() {
             Our Doctors
           </span>
           <h2 className="mx-auto mt-4 max-w-4xl text-2xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Meet Our Specialists
+            Expert Dental Specialists in Thrissur
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600 md:text-base">
             Experienced dental specialists dedicated to advanced care, comfort,

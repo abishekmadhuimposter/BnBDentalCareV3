@@ -30,7 +30,7 @@ const features = [
     iconColor: "text-emerald-500",
     iconBg: "bg-emerald-50",
     title: "Affordable Care",
-    description: "Quality dental care at transparent, fair prices",
+    description: "Affordable dental care in Thrissur with transparent, fair pricing for every treatment.",
   },
 ]
 
