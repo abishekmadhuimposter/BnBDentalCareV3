@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react"
 import Image from "next/image"
+import Link from "next/link"
+import Script from "next/script"
 import { Menu, X } from "lucide-react"
 import logo from "@/images/logo.png"
 
@@ -58,12 +60,12 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <a
+          <Link
             href="/#appointment"
             className="hidden rounded-lg bg-blue-600 px-2.5 text-sm font-medium text-white transition hover:bg-blue-700 md:inline-flex md:h-8 md:items-center md:justify-center"
           >
             Book Appointment
-          </a>
+          </Link>
 
           <button
             type="button"
@@ -79,15 +81,16 @@ export default function Navbar() {
 
         <link rel="canonical" href="https://bandbdentalcare.com"/>
         <meta name="google-site-verification" content="ArkxZoQTDnq6ShTQhg6nZsD-kkcY_B143cywZXVsySk" />
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NNRG5C80Z"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-4NNRG5C80Z');
-        </script>        
+        {/* Google tag (gtag.js) */}
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-4NNRG5C80Z" />
+        <Script id="gtag-init" strategy="afterInteractive" dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4NNRG5C80Z');
+          `
+        }} />        
 
       </header>
 
@@ -134,13 +137,13 @@ export default function Navbar() {
               </a>
             ))}
 
-            <a
+            <Link
               href="/#appointment"
               className="mt-3 inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
               onClick={closeMobileMenu}
             >
               Book Appointment
-            </a>
+            </Link>
           </nav>
         </aside>
       </div>
