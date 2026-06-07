@@ -49,7 +49,7 @@ export default function Hero() {
           </h1>
 
           <p className="mb-6 text-white/90">
-            Thrissur's best and most affordable dental & cosmetic clinic offering implants, braces, and smile makeovers
+            Thrissur&apos;s best and most affordable dental & cosmetic clinic offering implants, braces, and smile makeovers
           </p>
 
           <a

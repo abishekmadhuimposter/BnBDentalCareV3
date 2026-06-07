@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
 
             <p className="mt-5 max-w-xs text-sm leading-7 text-slate-400">
-              Thrissur's best dental & cosmetic clinic. Quality, affordable dental care in Thrissur, Kerala.
+              Thrissur&apos;s best dental & cosmetic clinic. Quality, affordable dental care in Thrissur, Kerala.
             </p>
 
             {/* <div className="mt-5 inline-flex w-full max-w-xs items-center justify-between rounded-lg bg-slate-800 px-4 py-3">

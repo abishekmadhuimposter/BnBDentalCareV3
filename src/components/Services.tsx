@@ -86,7 +86,7 @@ export default function Services() {
             Best Dental & Cosmetic Care in Thrissur
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600 md:text-base">
-            From routine check-ups to cosmetic procedures, Thrissur's most affordable dental clinic offers a full range of services to keep your smile healthy and beautiful.
+            From routine check-ups to cosmetic procedures, Thrissur&apos;s most affordable dental clinic offers a full range of services to keep your smile healthy and beautiful.
           </p>
         </div>
 

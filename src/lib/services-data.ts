@@ -539,6 +539,7 @@ export const servicesData: ServiceData[] = [
       "Looking for the best root canal treatment doctors in Thrissur? B&B Dental Care offers painless, single-sitting RCT using advanced rotary endodontics. Book a free consultation today!",
     overview:
       "Looking for trusted root canal treatment doctors in Thrissur? At B&B Dental Care, our specialist endodontists bring years of clinical expertise to save your natural tooth — without the pain you might expect. Root Canal Treatment (RCT) removes infected or damaged pulp from inside the tooth, eliminates bacterial infection, and seals the tooth to restore full function. We use advanced rotary endodontic instruments and digital radiography for precise, comfortable treatment — available in a single sitting for most cases. Whether you're dealing with severe toothache, a cracked tooth, or a deep cavity, our root canal doctors in Thrissur are here to help. Visit B&B Dental Care at Ollur, Thrissur and get back to pain-free living today.",
+    benefitsTitle: "Why Choose Our Root Canal Doctors in Thrissur?",
     benefits: [
       {
         title: "Save Your Natural Tooth",
