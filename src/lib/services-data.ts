@@ -437,7 +437,7 @@ export const servicesData: ServiceData[] = [
     metaDescription:
       "Get professional teeth whitening treatment in Thrissur at B&B Dental Care. Whiten teeth up to 8 shades in just 45 mins. Safe, laser whitening by expert dentists. Book free consultation — Call +91 98466 46488.",
     overview:
-      "A bright, white smile is one of the most powerful confidence boosters — and professional teeth whitening treatment in Thrissur at B&B Dental Care is the safest, fastest way to achieve it. Unlike over-the-counter whitening kits or home remedies, our in-clinic professional teeth whitening uses clinically tested, high-concentration bleaching agents precisely applied by trained cosmetic dentists to protect your gums and enamel throughout the process. <br>Whether your teeth are stained from years of tea, coffee, or tobacco use, yellowed due to age, or discoloured from medications, our expert dentists evaluate the exact cause of discolouration and recommend the most effective whitening method for your specific case. Patients can choose from our advanced light-activated laser whitening system for instant results or customised take-home whitening trays for gradual brightening at their own convenience. <br>At B&B Dental Care — the most trusted clinic for professional teeth whitening treatment in Thrissur — we combine premium whitening technology with personalised care to deliver results that are not just visibly dramatic but also long-lasting and safe. Located near Padavarad Junction, Ollur, our clinic is easily accessible for patients from across Thrissur district including Irinjalakuda, Chalakudy, Kunnamkulam, Kodungallur, and Guruvayur. Book a free smile consultation today and discover how many shades whiter your smile can become in just one visit.",
+      "A bright, white smile is one of the most powerful confidence boosters — and professional teeth whitening treatment in Thrissur at B&B Dental Care is the safest, fastest way to achieve it. Unlike over-the-counter whitening kits or home remedies, our in-clinic professional teeth whitening uses clinically tested, high-concentration bleaching agents precisely applied by trained cosmetic dentists to protect your gums and enamel throughout the process. Whether your teeth are stained from years of tea, coffee, or tobacco use, yellowed due to age, or discoloured from medications, our expert dentists evaluate the exact cause of discolouration and recommend the most effective whitening method for your specific case. Patients can choose from our advanced light-activated laser whitening system for instant results or customised take-home whitening trays for gradual brightening at their own convenience. At B&B Dental Care — the most trusted clinic for professional teeth whitening treatment in Thrissur — we combine premium whitening technology with personalised care to deliver results that are not just visibly dramatic but also long-lasting and safe. Located near Padavarad Junction, Ollur, our clinic is easily accessible for patients from across Thrissur district including Irinjalakuda, Chalakudy, Kunnamkulam, Kodungallur, and Guruvayur. Book a free smile consultation today and discover how many shades whiter your smile can become in just one visit.",
     benefitsTitle: "Why Choose Professional Teeth Whitening Treatment in Thrissur?",
     benefits: [
       {
@@ -530,7 +530,7 @@ export const servicesData: ServiceData[] = [
   },
   {
     slug: "root-canal-treatment-thrissur",
-    name: "Root Canal Treatment Doctors in Thrissur",
+    name: "Root Canal Treatment Doctors",
     image:
       "https://www.sakethospital.in/wp-content/uploads/2025/05/Tooth-With-Root-Canal-Hurt-With-Pressure-TruSmile-Dental.png",
     tagline: "Save Your Tooth with Painless Root Canal Treatment",
@@ -730,7 +730,7 @@ export const servicesData: ServiceData[] = [
   },
   {
     slug: "digital-smile-designing-clinic-thrissur",
-    name: "Best Digital Smile Design Clinic in Thrissur",
+    name: "Best Digital Smile Design Clinic",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLTBGN5F16M6uxGG_0ni0TmuXP-0Rw2EvyA&s",
     tagline: "See Your New Smile Before Treatment Begins",
@@ -831,7 +831,7 @@ export const servicesData: ServiceData[] = [
   },
   {
     slug: "dental-implant-treatment-provider-thrissur",
-    name: "Best Dental Implant Treatment Provider in Thrissur",
+    name: "Best Dental Implant Treatment Provider",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5QbaKzAZAbjml8UwppqQv1YreOVPQLgUFQ&s",
     tagline: "Permanent Tooth Replacement That Looks and Feels Real",
@@ -839,7 +839,7 @@ export const servicesData: ServiceData[] = [
     metaDescription:
       "B&B Dental Care is the best dental implant treatment provider in Thrissur. Expert implantologists, 3D planning, titanium implants & free consultation. Call now!",
     overview:
-      "Looking for the best dental implant treatment provider in Thrissur? B&B Dental Care offers world-class dental implant solutions at our state-of-the-art clinic in Ollur, Thrissur. Our specialist implantologists combine advanced 3D digital planning with premium titanium implants to deliver results that look, feel, and function exactly like your natural teeth.<br>Dental implants are the gold standard in modern dentistry for replacing missing teeth — and at B&B Dental Care, we have helped hundreds of patients across Thrissur and Kerala restore their smiles with lasting confidence. Unlike removable dentures or traditional bridges, implants are surgically placed into the jawbone, preventing bone loss and providing a lifetime solution with a success rate exceeding 95%.<br>Whether you are missing a single tooth, multiple teeth, or require full-arch restoration, our team personalises every treatment plan to your unique needs. From the first consultation and CBCT scan to the final crown fitting, we walk with you through every step — ensuring a comfortable, precise, and stress-free experience.<br>Choose B&B Dental Care — the most trusted dental implant clinic in Thrissur — and take the first step towards a permanent, beautiful smile today.",
+      "Looking for the best dental implant treatment provider in Thrissur? B&B Dental Care offers world-class dental implant solutions at our state-of-the-art clinic in Ollur, Thrissur. Our specialist implantologists combine advanced 3D digital planning with premium titanium implants to deliver results that look, feel, and function exactly like your natural teeth. Dental implants are the gold standard in modern dentistry for replacing missing teeth — and at B&B Dental Care, we have helped hundreds of patients across Thrissur and Kerala restore their smiles with lasting confidence. Unlike removable dentures or traditional bridges, implants are surgically placed into the jawbone, preventing bone loss and providing a lifetime solution with a success rate exceeding 95%. Whether you are missing a single tooth, multiple teeth, or require full-arch restoration, our team personalises every treatment plan to your unique needs. From the first consultation and CBCT scan to the final crown fitting, we walk with you through every step — ensuring a comfortable, precise, and stress-free experience. Choose B&B Dental Care — the most trusted dental implant clinic in Thrissur — and take the first step towards a permanent, beautiful smile today.",
     benefitsTitle: "Benefits of Choosing Our Dental Implant Treatment in Thrissur",
     benefits: [
       {
@@ -1032,7 +1032,7 @@ export const servicesData: ServiceData[] = [
   },
   {
     slug: "skin-tag-wart-removal-thrissur",
-    name: "Painless Skin Tag & Wart Removal Clinic in Thrissur",
+    name: "Painless Skin Tag & Wart Removal Clinic",
     image:
       "https://premier-clinic.com/wp-content/uploads/2020/08/Electrocautery-01.jpg",
     tagline: "Safe & Painless Skin Tag and Wart Removal in Thrissur",
@@ -1239,7 +1239,7 @@ export const servicesData: ServiceData[] = [
   },
   {
     slug: "Tooth-grills-dental-clinic-kerala",
-    name: "Tooth Grills Dental Clinic in Kerala — B&B Dental Care, Thrissur",
+    name: "Tooth Grills Dental Clinic in Kerala — B&B Dental Care",
     image: "https://media.istockphoto.com/id/2166148636/photo/young-man-shows-off-his-grillz-on-fisheye-lens.webp?a=1&b=1&s=612x612&w=0&k=20&c=CKpulcI4tNdlKlxOEnQmGyBSB2tzgobESVe02iioptY=",
     tagline: "Custom Tooth Grills Crafted for Your Unique Style",
     metaTitle: "Tooth Grills Dental Clinic in Kerala | Custom Grillz in Thrissur | B&B Dental Care",
