@@ -630,7 +630,7 @@ export const servicesData: ServiceData[] = [
   },
   {
     slug: "veneers-teeth-treatment-thrissur",
-    name: "Veneers Teeth Treatment in Thrissur",
+    name: "Veneers Teeth Treatment",
     image:
       "https://guptadentalclinic.com/wp-content/uploads/2026/03/Dental-Veneers.jpg",
     tagline: "Perfect Smiles with Precision-Crafted Veneers",
