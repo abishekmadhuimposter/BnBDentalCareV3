@@ -428,7 +428,7 @@ export const servicesData: ServiceData[] = [
   },
   {
     slug: "teeth-whitening-treatment-thrissur",
-    name: "Professional Teeth Whitening Treatment in Thrissur",
+    name: "Professional Teeth Whitening Treatment",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVGVLP7t4Emyoj5ELeNdLdezp3Jc9YF7NuoQ&s",
     tagline: "A Brighter Smile in Just One Visit",
