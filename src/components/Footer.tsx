@@ -67,12 +67,12 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-semibold text-white">Our Services</h4>
             <ul className="mt-5 space-y-3 text-sm">
-              <li><Link href="/services/dental-implants" className="hover:text-white">Dental Implants</Link></li>
-              <li><Link href="/services/root-canal" className="hover:text-white">Root Canal</Link></li>
-              <li><Link href="/services/teeth-whitening" className="hover:text-white">Teeth Whitening</Link></li>
+              <li><Link href="/services/dental-implant-treatment-provider-thrissur" className="hover:text-white">Dental Implants</Link></li>
+              <li><Link href="/services/root-canal-treatment-thrissur" className="hover:text-white">Root Canal</Link></li>
+              <li><Link href="/services/teeth-whitening-treatment-thrissur" className="hover:text-white">Teeth Whitening</Link></li>
               <li><Link href="/services/dental-aligners-and-braces" className="hover:text-white">Braces &amp; Aligners</Link></li>
-              <li><Link href="/services/veneers" className="hover:text-white">Veneers</Link></li>
-              <li><Link href="/services/digital-smile-designing" className="hover:text-white">Smile Makeover</Link></li>
+              <li><Link href="/services/veneers-teeth-treatment-thrissur" className="hover:text-white">Veneers</Link></li>
+              <li><Link href="/services/digital-smile-designing-clinic-thrissur" className="hover:text-white">Smile Makeover</Link></li>
             </ul>
           </div>
 
