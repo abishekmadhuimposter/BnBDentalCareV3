@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# OpenAI crawler
+User-agent: GPTBot
+Allow: /
+
+# Google (used by Gemini)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Bing (used by ChatGPT ecosystem)
+User-agent: Bingbot
+Allow: /
+
+# Other AI crawlers
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Sitemap
+Sitemap: https://bandbdentalcare.com/sitemap.xml
