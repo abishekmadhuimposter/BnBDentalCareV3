@@ -13,8 +13,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "B&B Dental Care | Best Dental Clinic",
-  description: "Professional dental treatments including implants, braces and cosmetic dentistry.",
+  title: "B&B Dental Care | Best Dental & Cosmetic Clinic in Thrissur | Affordable Dental Care",
+  description: "B&B Dental Care – Best dental & cosmetic clinic in Thrissur. Affordable dental treatments including implants, braces, teeth whitening & more. Book your appointment today!",
   icons: {
     icon: "/logo.png",
   },
